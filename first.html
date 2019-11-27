@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Nunito+Sans" rel="stylesheet">
+</head>
+<style>
+	.user{
+		
+		margin-top:120px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		overflow: hidden;
+		position: absolute;
+		top: calc(-50px/2);
+		left: calc(50% - 50px);
+		opacity: 0.8;
+		}
+	a{
+		text-decoration:none;
+		color:rgb(0,255,0);
+		}
+	table{
+		background-color:black;
+		margin-top:150px;
+		padding:30px;
+		padding-top:39px;
+		border-radius:15px;
+		font-family:font-family: 'Nunito Sans', sans-serif;
+		-o-boder-radius:25px;
+		opacity:0.6;
+		}
+	body{
+		background-image:url(images/closeup.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+		height: 450px;
+		
+		}
+	input[type ="email"],input[type="password"]{
+		background-color:rgb(168,168,168);
+		font-size:24px;
+		padding:7px;
+		margin-bottom:7px;
+		color:rgb(255,255,255);
+		border:none;
+		border-bottom: 1px solid rgb(17,136,255);
+		background: transparent;
+		}
+	input[type="submit"]{
+		background-color:rgb(0,255,0);
+		width:310px;
+		font-size:24px;
+		margin-bottom:7px;
+		padding:7px;
+		color:rgb(255,255,255);
+		}
+</style>
+<body>
+		<div class="loginBox">
+    	<img src="images.png" class="user">
+    </div>
+
+    <table align="center">
+    	<form>
+        	<tr>
+            	<td><input type="email" placeholder="Email" required </td>
+            </tr>
+            <tr>
+            	<td><input type="password" placeholder="Password" required </td>
+            </tr>
+        	<tr>
+            	<td><input type="submit" value=" LOGIN " ></a></td>
+            </tr>
+            <tr>
+            	<td align="center" style="color:rgb(255,255,255);">Not registered? <a href="second.html">Create An Account</a></td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
